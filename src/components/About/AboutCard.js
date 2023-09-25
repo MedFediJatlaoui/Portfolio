@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mohamed Fedi Jatlaoui </span>
-            from <span className="purple"> La Marsa,Tunisia.</span>
+            from <span className="purple"> Tunisia.</span>
             <br /> I am a final year student pursuing Software Architecture Engineering
             <br />
             Additionally, I am currently freelancing as a software developer.
