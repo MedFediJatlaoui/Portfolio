@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import welcomeVendor from "../../Assets/Projects/welcomeVendor.png";
+import coffre from "../../Assets/Projects/coffre.jpg";
 
 import accueil1 from "../../Assets/Projects/accueil1.png";
 function Projects() {
@@ -19,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              
+              imgPath={coffre}
               isBlog={false}
               title="SAFE"
               description="I created microservices with Jhipster for a doubly encrypted document vault (using Apache Jackrabbit) and participated in the integration. I also contributed to a similar microservice using RabbitMQ, further enriching my experience in data security and microservices integration."
